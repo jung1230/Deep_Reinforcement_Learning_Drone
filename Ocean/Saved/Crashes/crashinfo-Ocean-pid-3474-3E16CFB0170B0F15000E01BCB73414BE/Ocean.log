@@ -1,0 +1,1068 @@
+﻿Log file open, 11/21/19 13:21:00
+LogInit: Display: Running engine for game: Ocean
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(565332538) SRandInit(565332539).
+LogInit: Read version file with build ID 'd9e00016-e02a-4ce7-b6e5-9d4b44499037'
+LogInit: Registered custom module enumerator with build ID 'd9e00016-e02a-4ce7-b6e5-9d4b44499037'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.042384
+LogModuleManager: Display: Found up-to-date module file ../../../../AirSim/Unreal/Environments/Ocean/Plugins/AirSim/Binaries/Linux/libUE4Editor-AirSim.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Linux/libUE4Editor-PhysXVehicles.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Linux/libUE4Editor-PhysXVehiclesEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-Paper2D.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-Paper2DEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-PaperSpriteSheetImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-PaperTiledImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Linux/libUE4Editor-SmartSnapping.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Linux/libUE4Editor-OnlineSubsystem.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Linux/libUE4Editor-AndroidPermission.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Linux/libUE4Editor-OnlineSubsystemUtils.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Linux/libUE4Editor-OnlineBlueprintSupport.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Linux/libUE4Editor-OnlineSubsystemNull.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Linux/libUE4Editor-CableComponent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Linux/libUE4Editor-SteamVR.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Linux/libUE4Editor-SteamVRController.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Linux/libUE4Editor-ProceduralMeshComponent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Linux/libUE4Editor-ProceduralMeshComponentEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Linux/libUE4Editor-CustomMeshComponent.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Linux/libUE4Editor-MobilePatchingUtils.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Linux/libUE4Editor-AndroidDeviceProfileSelector.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Linux/libUE4Editor-ArchVisCharacter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Linux/libUE4Editor-RuntimePhysXCooking.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Linux/libUE4Editor-ImmediatePhysics.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Linux/libUE4Editor-ImmediatePhysicsEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Linux/libUE4Editor-LocationServicesBPLibrary.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Linux/libUE4Editor-ExampleDeviceProfileSelector.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LinuxDeviceProfileSelector/Binaries/Linux/libUE4Editor-LinuxDeviceProfileSelector.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Linux/libUE4Editor-CharacterAI.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Linux/libUE4Editor-ActorSequence.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Linux/libUE4Editor-LevelSequenceEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Linux/libUE4Editor-MatineeToLevelSequence.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Linux/libUE4Editor-TcpMessaging.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Linux/libUE4Editor-UdpMessaging.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Linux/libUE4Editor-FacialAnimation.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Linux/libUE4Editor-FacialAnimationEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Linux/libUE4Editor-AssetManagerEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Linux/libUE4Editor-MobileLauncherProfileWizard.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Linux/libUE4Editor-GameplayTagsEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Linux/libUE4Editor-SpeedTreeImporter.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Linux/libUE4Editor-PluginBrowser.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Linux/libUE4Editor-LightPropagationVolumeRuntime.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Linux/libUE4Editor-LightPropagationVolumeEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Linux/libUE4Editor-AndroidMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Linux/libUE4Editor-AndroidMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Linux/libUE4Editor-MediaCompositing.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Linux/libUE4Editor-MediaCompositingEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMedia.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Linux/libUE4Editor-ImgMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Linux/libUE4Editor-AvfMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Linux/libUE4Editor-AvfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Linux/libUE4Editor-AvfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Linux/libUE4Editor-WmfMediaEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Linux/libUE4Editor-WmfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Linux/libUE4Editor-WmfMediaFactory.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Linux/libUE4Editor-MediaPlayerEditor.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/KDevelopSourceCodeAccess/Binaries/Linux/libUE4Editor-KDevelopSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CodeLiteSourceCodeAccess/Binaries/Linux/libUE4Editor-CodeLiteSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Linux/libUE4Editor-UObjectPlugin.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Linux/libUE4Editor-GitSourceControl.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Linux/libUE4Editor-SubversionSourceControl.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/NullSourceCodeAccess/Binaries/Linux/libUE4Editor-NullSourceCodeAccess.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Linux/libUE4Editor-PerforceSourceControl.so (API version 0).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Linux/libUE4Editor-VisualStudioCodeSourceCodeAccess.so (API version 0).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AirSim
+LogInit: Using libcurl 7.48.0-DEV
+LogInit:  - built for x86_64-unknown-linux-gnu
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_TLSAUTH_SRP
+LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+LogInit: Build: ++UE4+Release-4.18-CL-0
+LogInit: Engine Version: 4.18.3-0+++UE4+Release-4.18
+LogInit: Compatible Engine Version: 4.18.0-0+++UE4+Release-4.18
+LogInit: Net CL: 0
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 30
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 20
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 12
+LogInit: Compiled (64-bit): Nov 12 2019 00:28:02
+LogInit: Compiled with Clang: 3.9.1 (tags/RELEASE_391/rc2)
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.18
+LogInit: Command line: 
+LogInit: Base directory: /home/ase-lab/Desktop/UnrealEngine/Engine/Binaries/Linux/
+LogInit: Installed Engine Build: 0
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.11.21-06.21.01:674][  0]LogInit: Initializing SDL.
+[2019.11.21-06.21.01:762][  0]LogInit: Using SDL_WINDOW_OPENGL
+[2019.11.21-06.21.01:762][  0]LogInit: Initialized SDL 2.0.5 revision: 11184 (hg-11184:04063928c4a8 with EpicExtensions) (compiled against 2.0.5)
+[2019.11.21-06.21.01:762][  0]LogInit: Display metrics:
+[2019.11.21-06.21.01:762][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2019.11.21-06.21.01:762][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2019.11.21-06.21.01:762][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2019.11.21-06.21.01:762][  0]LogInit:     Left=0, Top=27, Right=1920, Bottom=1080
+[2019.11.21-06.21.01:762][  0]LogInit:   VirtualDisplayRect:
+[2019.11.21-06.21.01:762][  0]LogInit:     Left=0, Top=27, Right=1920, Bottom=1080
+[2019.11.21-06.21.01:762][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2019.11.21-06.21.01:762][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2019.11.21-06.21.01:762][  0]LogInit:   Number of monitors: 1
+[2019.11.21-06.21.01:762][  0]LogInit:     Monitor 0
+[2019.11.21-06.21.01:762][  0]LogInit:       Name: 0
+[2019.11.21-06.21.01:762][  0]LogInit:       ID: display0
+[2019.11.21-06.21.01:762][  0]LogInit:       NativeWidth: 1920
+[2019.11.21-06.21.01:762][  0]LogInit:       NativeHeight: 1080
+[2019.11.21-06.21.01:762][  0]LogInit:       bIsPrimary: true
+[2019.11.21-06.21.01:762][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.11.21-06.21.01:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2019.11.21-06.21.01:772][  0]LogInit: Linux hardware info:
+[2019.11.21-06.21.01:772][  0]LogInit:  - we are the first instance of this executable
+[2019.11.21-06.21.01:772][  0]LogInit:  - this process' id (pid) is 3474, parent process' id (ppid) is 1
+[2019.11.21-06.21.01:772][  0]LogInit:  - we are not running under debugger
+[2019.11.21-06.21.01:772][  0]LogInit:  - machine network name is 'aselab-HP-ZBook-15-G2'
+[2019.11.21-06.21.01:772][  0]LogInit:  - user name is 'aselab' (aselab)
+[2019.11.21-06.21.01:772][  0]LogInit:  - we're logged in locally
+[2019.11.21-06.21.01:772][  0]LogInit:  - we're running with rendering
+[2019.11.21-06.21.01:772][  0]LogInit:  - CPU: GenuineIntel 'Intel(R) Core(TM) i7-4910MQ CPU @ 2.90GHz' (signature: 0x306C3)
+[2019.11.21-06.21.01:772][  0]LogInit:  - Number of physical cores available for the process: 4
+[2019.11.21-06.21.01:772][  0]LogInit:  - Number of logical cores available for the process: 8
+[2019.11.21-06.21.01:772][  0]LogInit:  - Cache line size: 64
+[2019.11.21-06.21.01:772][  0]LogInit:  - Memory allocator used: binned2
+[2019.11.21-06.21.01:772][  0]LogLinux: Benchmarking clocks:
+[2019.11.21-06.21.01:772][  0]LogLinux:  - CLOCK_REALTIME (id=0) can sustain 62578065 (62578K, 63M) calls per second without zero deltas.
+[2019.11.21-06.21.01:772][  0]LogLinux:  - CLOCK_MONOTONIC (id=1) can sustain 64342290 (64342K, 64M) calls per second without zero deltas.
+[2019.11.21-06.21.01:772][  0]LogLinux:  - CLOCK_MONOTONIC_RAW (id=4) can sustain 14566210 (14566K, 15M) calls per second without zero deltas.
+[2019.11.21-06.21.01:772][  0]LogLinux:  - CLOCK_MONOTONIC_COARSE (id=6) can sustain 214969062 (214969K, 215M) calls per second with 99.999879% zero deltas.
+[2019.11.21-06.21.01:772][  0]LogLinux: Selected clock_id 1 (CLOCK_MONOTONIC) since it is the fastest support clock without zero deltas.
+[2019.11.21-06.21.01:772][  0]LogInit: Linux-specific commandline switches:
+[2019.11.21-06.21.01:772][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2019.11.21-06.21.01:772][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2019.11.21-06.21.01:772][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2019.11.21-06.21.01:772][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2019.11.21-06.21.01:772][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2019.11.21-06.21.01:772][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2019.11.21-06.21.01:772][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2019.11.21-06.21.01:773][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15960 MB, 16343656 KB, 16735903744 bytes)
+[2019.11.21-06.21.01:835][  0]LogInit: Using OS detected language (en-US).
+[2019.11.21-06.21.01:836][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.21-06.21.01:842][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.21-06.21.03:379][  0]LogRHI: Initializing OpenGL RHI
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_RENDERER: Quadro K2100M/PCIe/SSE2
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_VERSION: 4.3.0 NVIDIA 384.130
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 4.30 NVIDIA via Cg compiler
+[2019.11.21-06.21.03:379][  0]LogRHI: OpenGL Extensions:
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_arrays_of_arrays
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_base_instance
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_bindless_texture
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_blend_func_extended
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_buffer_storage
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_cl_event
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_clear_buffer_object
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_clear_texture
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_clip_control
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_color_buffer_float
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_conservative_depth
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_compute_shader
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_compute_variable_group_size
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_conditional_render_inverted
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_copy_buffer
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_copy_image
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_cull_distance
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_debug_output
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_depth_clamp
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_depth_texture
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_derivative_control
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_direct_state_access
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_draw_buffers
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_draw_indirect
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_draw_instanced
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_enhanced_layouts
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_ES3_compatibility
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_ES3_1_compatibility
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_ES3_2_compatibility
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_explicit_uniform_location
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_fragment_layer_viewport
+[2019.11.21-06.21.03:379][  0]LogRHI:   GL_ARB_fragment_program
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_fragment_shader
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_framebuffer_no_attachments
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_framebuffer_object
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_geometry_shader4
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_get_program_binary
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_get_texture_sub_image
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_gl_spirv
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_gpu_shader5
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_gpu_shader_int64
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_half_float_pixel
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_half_float_vertex
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_imaging
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_indirect_parameters
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_instanced_arrays
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_internalformat_query
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_internalformat_query2
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_invalidate_subdata
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_map_buffer_range
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_multi_bind
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_multi_draw_indirect
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_multisample
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_multitexture
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_occlusion_query
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_occlusion_query2
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_parallel_shader_compile
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_pipeline_statistics_query
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_point_parameters
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_point_sprite
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_program_interface_query
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_provoking_vertex
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_query_buffer_object
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_robust_buffer_access_behavior
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_robustness
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_sample_shading
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_sampler_objects
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_seamless_cubemap_per_texture
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_atomic_counter_ops
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_ballot
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_clock
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_draw_parameters
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_group_vote
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_image_size
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_objects
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_precision
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_storage_buffer_object
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_subroutine
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_texture_image_samples
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shading_language_100
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shading_language_include
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shading_language_packing
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_shadow
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_sparse_buffer
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_sparse_texture
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_stencil_texturing
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_sync
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_tessellation_shader
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_barrier
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_buffer_range
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_compression
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_cube_map
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_env_add
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_env_combine
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_float
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_gather
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_mirror_clamp_to_edge
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_multisample
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_query_levels
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_query_lod
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_rectangle
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_rg
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_stencil8
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_storage
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_storage_multisample
+[2019.11.21-06.21.03:380][  0]LogRHI:   GL_ARB_texture_swizzle
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_texture_view
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_timer_query
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_transform_feedback2
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_transform_feedback3
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_transform_feedback_overflow_query
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_transpose_matrix
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_array_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_attrib_binding
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_program
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_shader
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_type_10f_11f_11f_rev
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_viewport_array
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ARB_window_pos
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ATI_draw_buffers
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ATI_texture_float
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_S3_s3tc
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_env_add
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_abgr
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_bgra
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_bindable_uniform
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_blend_color
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_blend_func_separate
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_blend_minmax
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_blend_subtract
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_Cg_shader
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_direct_state_access
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_draw_buffers2
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_draw_instanced
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_draw_range_elements
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_fog_coord
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_framebuffer_multisample_blit_scaled
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_framebuffer_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_geometry_shader4
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_gpu_shader4
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_packed_float
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_packed_pixels
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_point_parameters
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_polygon_offset_clamp
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_provoking_vertex
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_rescale_normal
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_secondary_color
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_separate_specular_color
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_shader_integer_mix
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_shadow_funcs
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_stencil_two_side
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_stencil_wrap
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture3D
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_array
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_cube_map
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_env_combine
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_integer
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_lod
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_object
+[2019.11.21-06.21.03:381][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_texture_sRGB
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_texture_storage
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_texture_swizzle
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_timer_query
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_transform_feedback2
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_vertex_array
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_window_rectangles
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_x11_sync_object
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_import_sync_object
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_robustness_video_memory_purge
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_KHR_context_flush_control
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_KHR_debug
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_memory_object
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_memory_object_fd
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_KHR_no_error
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_KHR_robust_buffer_access_behavior
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_KHR_robustness
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_semaphore
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_EXT_semaphore_fd
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_KTX_buffer_region
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_alpha_to_coverage_dither_control
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_bindless_multi_draw_indirect_count
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_bindless_texture
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_blend_equation_advanced
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_blend_square
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_command_list
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_compute_program5
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_conditional_render
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_copy_image
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_deep_texture3D
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_depth_buffer_float
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_depth_clamp
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_draw_texture
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_draw_vulkan_image
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_ES3_1_compatibility
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_explicit_multisample
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_fence
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_float_buffer
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_fog_distance
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_fragment_program
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_fragment_program_option
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_fragment_program2
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_geometry_shader4
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_gpu_program4
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_internalformat_sample_query
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_gpu_program4_1
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_gpu_program5
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_gpu_program5_mem_extended
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_gpu_shader5
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_half_float
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_light_max_exponent
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_multisample_coverage
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_occlusion_query
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_path_rendering
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_pixel_data_range
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_point_sprite
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_primitive_restart
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_register_combiners
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_register_combiners2
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_shader_atomic_float
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_shader_buffer_load
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_shader_storage_buffer_object
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texgen_reflection
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_barrier
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_env_combine4
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_multisample
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_rectangle
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_shader
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_shader2
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_texture_shader3
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_transform_feedback
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_transform_feedback2
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_uniform_buffer_unified_memory
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_vdpau_interop
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_vertex_array_range
+[2019.11.21-06.21.03:382][  0]LogRHI:   GL_NV_vertex_array_range2
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_program
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_program1_1
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_program2
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_program2_option
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_vertex_program3
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_video_capture
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NVX_conditional_render
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NVX_nvenc_interop
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_shader_thread_group
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_NV_shader_thread_shuffle
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_KHR_blend_equation_advanced
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_SGIS_texture_lod
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_SGIX_depth_texture
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_SGIX_shadow
+[2019.11.21-06.21.03:383][  0]LogRHI:   GL_SUN_slice_accum
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 4096
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_SAMPLES: 64
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 64
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 64
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 64
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 192
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2019.11.21-06.21.03:422][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2019.11.21-06.21.03:423][  0]LogRHI: OpenGL MajorVersion = 4, MinorVersion = 3, ShaderPlatform = GLSL_430, FeatureLevel = SM5
+[2019.11.21-06.21.03:426][  0]LogRHI: Texture pool is 1433 MB (70% of 2048 MB)
+[2019.11.21-06.21.03:426][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../AirSim/Unreal/Environments/Ocean/Intermediate/Shaders/WorkingDirectory/3474/).
+[2019.11.21-06.21.03:427][  0]LogShaderCompilers: Cleaned the shader compiler working directory '../../../../AirSim/Unreal/Environments/Ocean/Intermediate/Shaders/tmp/0003903E030B0D15001501AA21E40CF4/'.
+[2019.11.21-06.21.03:427][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.21-06.21.04:825][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.11.21-06.21.04:893][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.11.21-06.21.04:962][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.11.21-06.21.05:040][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.11.21-06.21.05:102][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.11.21-06.21.05:171][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2019.11.21-06.21.05:247][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2019.11.21-06.21.05:316][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2019.11.21-06.21.05:383][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2019.11.21-06.21.05:459][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2019.11.21-06.21.05:599][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2019.11.21-06.21.05:607][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2019.11.21-06.21.05:675][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.11.21-06.21.05:735][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.11.21-06.21.05:735][  0]LogTargetPlatformManager: Display: Building Assets For Linux
+[2019.11.21-06.21.05:980][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.21-06.21.06:185][  0]LogDerivedDataCache: Loaded boot cache 0.20s 95MB ../../../../AirSim/Unreal/Environments/Ocean/DerivedDataCache/Boot.ddc.
+[2019.11.21-06.21.06:185][  0]LogDerivedDataCache: Display: Loaded Boot cache: ../../../../AirSim/Unreal/Environments/Ocean/DerivedDataCache/Boot.ddc
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../AirSim/Unreal/Environments/Ocean/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.21-06.21.06:186][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.21-06.21.06:194][  0]LogMaterial: Verifying Global Shaders for GLSL_430
+[2019.11.21-06.21.06:203][  0]LogSlate: Using Freetype 2.6.0
+[2019.11.21-06.21.06:204][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.11.21-06.21.06:204][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 0
+[2019.11.21-06.21.06:596][  0]LogLinux: Selected Device Profile: [Linux]
+[2019.11.21-06.21.06:811][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.21-06.21.06:811][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.11.21-06.21.06:812][  0]LogMeshReduction: No automatic mesh merging module available
+[2019.11.21-06.21.06:812][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.21-06.21.06:812][  0]LogMeshMerging: No automatic mesh merging module available
+[2019.11.21-06.21.06:812][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.21-06.21.06:915][  0]LogNetVersion: Ocean , NetCL: 0, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3018763457)
+[2019.11.21-06.21.07:081][  0]LogAssetRegistry: FAssetRegistry took 0.0043 seconds to start up
+[2019.11.21-06.21.07:525][  0]LogPackageLocalizationCache: Processed 8 localized package path(s) for 2 prioritized culture(s) in 0.027777 seconds
+[2019.11.21-06.21.07:529][  0]LogUObjectArray: 35531 objects as part of root set at end of initial load.
+[2019.11.21-06.21.07:529][  0]LogUObjectAllocator: 7280144 out of 0 bytes used by permanent object pool.
+[2019.11.21-06.21.07:529][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.21-06.21.07:706][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2019.11.21-06.21.08:396][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.11.21-06.21.08:396][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.11.21-06.21.08:396][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:396][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:396][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:396][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:396][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.11.21-06.21.08:396][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.11.21-06.21.08:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.11.21-06.21.08:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.11.21-06.21.08:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:397][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:397][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:398][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png' error.
+[2019.11.21-06.21.08:398][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_24x.png
+[2019.11.21-06.21.08:398][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:398][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:398][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png' error.
+[2019.11.21-06.21.08:398][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Mac/Platform_Mac_128x.png
+[2019.11.21-06.21.08:401][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.11.21-06.21.08:401][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.11.21-06.21.08:401][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:401][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:401][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:401][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:401][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png' error.
+[2019.11.21-06.21.08:401][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_24x.png
+[2019.11.21-06.21.08:401][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:401][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:402][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:402][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:402][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png' error.
+[2019.11.21-06.21.08:402][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ATC_24x.png
+[2019.11.21-06.21.08:402][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:402][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:402][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:402][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:402][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png' error.
+[2019.11.21-06.21.08:402][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_DXT_24x.png
+[2019.11.21-06.21.08:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png' error.
+[2019.11.21-06.21.08:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC1_24x.png
+[2019.11.21-06.21.08:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:403][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:403][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:404][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png' error.
+[2019.11.21-06.21.08:404][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ETC2_24x.png
+[2019.11.21-06.21.08:404][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:404][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:404][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:404][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:404][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png' error.
+[2019.11.21-06.21.08:404][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_PVRTC_24x.png
+[2019.11.21-06.21.08:404][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:404][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:405][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:405][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png' error.
+[2019.11.21-06.21.08:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_ASTC_24x.png
+[2019.11.21-06.21.08:405][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.08:405][  0]LogStreaming: Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png' error.
+[2019.11.21-06.21.08:405][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Launcher/Android/Platform_Android_128x.png
+[2019.11.21-06.21.11:123][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.21-06.21.11:132][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.21-06.21.12:073][  0]LogTemp: StartupModule: AirSim plugin
+[2019.11.21-06.21.12:382][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2019.11.21-06.21.13:308][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.21-06.21.14:076][  0]SourceControl: Source control is disabled
+[2019.11.21-06.21.14:076][  0]SourceControl: Source control is disabled
+[2019.11.21-06.21.14:137][  0]SourceControl: Source control is disabled
+[2019.11.21-06.21.14:211][  0]SourceControl: Source control is disabled
+[2019.11.21-06.21.14:870][  0]LogEngine: Initializing Engine...
+[2019.11.21-06.21.14:872][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.21-06.21.15:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.11.21-06.21.15:091][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.11.21-06.21.15:251][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-06.21.15:252][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-06.21.15:253][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-06.21.15:257][  0]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-06.21.15:684][  0]LogInit: FAudioDevice initialized.
+[2019.11.21-06.21.15:738][  0]LogDerivedDataCache: Saved boot cache 0.05s 95MB ../../../../AirSim/Unreal/Environments/Ocean/DerivedDataCache/Boot.ddc.
+[2019.11.21-06.21.15:893][  0]LogInit: Texture streaming: Enabled
+[2019.11.21-06.21.15:934][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.21-06.21.16:266][  0]LogInit: Transaction tracking system initialized
+[2019.11.21-06.21.16:641][  0]BlueprintLog: New page: Editor Load
+[2019.11.21-06.21.17:895][  0]LocalizationService: Localization service is disabled
+[2019.11.21-06.21.18:453][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.11.21-06.21.18:454][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.11.21-06.21.18:454][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C'
+[2019.11.21-06.21.18:767][  0]LogConsoleResponse: Display: 
+[2019.11.21-06.21.18:912][  0]LogFileCache: Scanning file cache for directory '/home/ase-lab/Desktop/AirSim/Unreal/Environments/Ocean/Content/' took 0.00s
+[2019.11.21-06.21.18:912][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.21-06.21.18:913][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.21-06.21.18:913][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.11.21-06.21.20:137][  0]SourceControl: Source control is disabled
+[2019.11.21-06.21.20:137][  0]Cmd: MAP LOAD FILE="../../../../AirSim/Unreal/Environments/Ocean/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.21-06.21.20:137][  0]LogEditorServer: Warning: Can't find file '../../../../AirSim/Unreal/Environments/Ocean/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.11.21-06.21.20:137][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.21-06.21.20:152][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 14.82ms to complete.
+[2019.11.21-06.21.20:152][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.015
+[2019.11.21-06.21.20:213][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.20:213][  0]LogLinux: Scale at X=960.000000, Y=553.500000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.20:237][  0]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.20:305][  0]LogCollectionManager: Loaded 0 collections in 0.000971 seconds
+[2019.11.21-06.21.20:320][  0]LogFileCache: Scanning file cache for directory '/home/ase-lab/Desktop/AirSim/Unreal/Environments/Ocean/Saved/Collections/' took 0.00s
+[2019.11.21-06.21.20:320][  0]LogFileCache: Scanning file cache for directory '/home/ase-lab/Desktop/AirSim/Unreal/Environments/Ocean/Content/Developers/aselab/Collections/' took 0.00s
+[2019.11.21-06.21.20:320][  0]LogFileCache: Scanning file cache for directory '/home/ase-lab/Desktop/AirSim/Unreal/Environments/Ocean/Content/Collections/' took 0.00s
+[2019.11.21-06.21.20:320][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2363 classes and 503 folders.
+[2019.11.21-06.21.20:323][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.11.21-06.21.20:444][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.11.21-06.21.20:514][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.11.21-06.21.20:578][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.21-06.21.20:823][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.11.21-06.21.20:823][  0]LogLoad: (Engine Initialization) Total time: 20.70 seconds
+[2019.11.21-06.21.20:823][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.21-06.21.20:823][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2019.11.21-06.21.21:160][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.21-06.21.21:169][  0]LogSlate: Took 0.000072 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.21-06.21.21:176][  0]LogSlate: Took 0.001986 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.21-06.21.21:330][  0]LogInit: Adding external input plugin.
+[2019.11.21-06.21.21:348][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.11.21-06.21.21:378][  0]LogRenderer: Reallocating scene render targets to support 1136x596 Format 9 NumSamples 1 (Frame:1).
+[2019.11.21-06.21.21:378][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.11.21-06.21.21:395][  1]LogAssetRegistry: Asset discovery search completed in 14.3139 seconds
+[2019.11.21-06.21.21:397][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.21-06.21.21:397][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000059 seconds (updated 0 objects)
+[2019.11.21-06.21.21:450][  2]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-06.21.25:017][287]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.25:342][289]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-06.21.33:397][750]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.33:397][750]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.33:492][750]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-06.21.33:515][750]LogSlate: Took 0.000045 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.11.21-06.21.33:576][750]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-06.21.33:927][750]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-06.21.33:952][750]Cmd: MAP LOAD FILE="../../../../AirSim/Unreal/Environments/Ocean/Content/StarterContent/Maps/Ocean.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.21-06.21.33:952][750]LightingResults: New page: Lighting Build
+[2019.11.21-06.21.33:999][750]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0002 seconds. Added 5 classes and 0 folders.
+[2019.11.21-06.21.34:000][750]LoadErrors: New page: Loading map: Ocean.umap
+[2019.11.21-06.21.34:000][750]MapCheck: New page: Map Check
+[2019.11.21-06.21.34:000][750]LightingResults: New page: Lighting Build
+[2019.11.21-06.21.34:070][750]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.21-06.21.34:093][750]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.21-06.21.34:111][750]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 17.753ms to complete.
+[2019.11.21-06.21.34:111][750]LogFileHelpers: Loading map 'Ocean' took 0.160
+[2019.11.21-07.10.11:362][991]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-07.10.11:391][991]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.10.11:391][991]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-07.10.11:392][991]PIE: New page: PIE session: Ocean (Nov 21, 2019, 9:10:11 PM)
+[2019.11.21-07.10.11:392][991]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-07.10.11:396][991]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004190s)
+[2019.11.21-07.10.11:396][991]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-07.10.11:396][991]LogPlayLevel: PIE: World Init took: (0.000491s)
+[2019.11.21-07.10.11:397][991]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.004912s)
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-07.10.11:407][991]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-07.10.11:407][991]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-07.10.11:822][991]LogInit: FAudioDevice initialized.
+[2019.11.21-07.10.11:858][991]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-07.10.11:860][991]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-14.10.11
+[2019.11.21-07.10.11:860][991]LogWorld: Bringing up level for play took: 0.000845
+[2019.11.21-07.10.11:907][991]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2019.11.21-07.10.11:909][991]Cmd: r.CustomDepth 3
+[2019.11.21-07.10.11:909][991]r.CustomDepth = "3"
+[2019.11.21-07.10.11:910][991]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-07.10.12:321][991]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-07.10.12:578][991]LogTemp: SimpleFlight
+[2019.11.21-07.10.12:583][991]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 1.193
+[2019.11.21-07.10.12:584][991]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.10.58:800][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.10.59:124][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.11.17:067][477]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.11.17:067][477]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.11.17:067][477]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.11.17:099][477]LogSlate: Took 0.000061 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2019.11.21-07.11.17:400][478]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-07.27.52:793][121]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-07.27.52:805][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.27.52:805][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-07.27.52:805][121]PIE: New page: PIE session: Ocean (Nov 21, 2019, 9:27:52 PM)
+[2019.11.21-07.27.52:805][121]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-07.27.52:810][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004367s)
+[2019.11.21-07.27.52:810][121]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-07.27.52:811][121]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2019.11.21-07.27.52:811][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.005189s)
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-07.27.52:827][121]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-07.27.52:827][121]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-07.27.53:249][121]LogInit: FAudioDevice initialized.
+[2019.11.21-07.27.53:286][121]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-07.27.53:287][121]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-14.27.53
+[2019.11.21-07.27.53:288][121]LogWorld: Bringing up level for play took: 0.000712
+[2019.11.21-07.27.53:289][121]Cmd: r.CustomDepth 3
+[2019.11.21-07.27.53:289][121]r.CustomDepth = "3"
+[2019.11.21-07.27.53:289][121]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-07.27.53:296][121]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-07.27.53:296][121]LogTemp: SimpleFlight
+[2019.11.21-07.27.53:298][121]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 0.493
+[2019.11.21-07.27.53:298][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.28.43:061][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.28.43:437][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.28.59:942][470]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.28.59:942][470]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.28.59:942][470]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.29.00:275][471]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-07.36.57:244][  2]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-07.36.57:254][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.36.57:254][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-07.36.57:254][  2]PIE: New page: PIE session: Ocean (Nov 21, 2019, 9:36:57 PM)
+[2019.11.21-07.36.57:254][  2]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-07.36.57:258][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003530s)
+[2019.11.21-07.36.57:258][  2]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-07.36.57:258][  2]LogPlayLevel: PIE: World Init took: (0.000470s)
+[2019.11.21-07.36.57:259][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.004224s)
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-07.36.57:272][  2]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-07.36.57:272][  2]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-07.36.57:699][  2]LogInit: FAudioDevice initialized.
+[2019.11.21-07.36.57:738][  2]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-07.36.57:739][  2]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-14.36.57
+[2019.11.21-07.36.57:740][  2]LogWorld: Bringing up level for play took: 0.000807
+[2019.11.21-07.36.57:741][  2]Cmd: r.CustomDepth 3
+[2019.11.21-07.36.57:741][  2]r.CustomDepth = "3"
+[2019.11.21-07.36.57:741][  2]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-07.36.57:749][  2]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-07.36.57:749][  2]LogTemp: SimpleFlight
+[2019.11.21-07.36.57:751][  2]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 0.497
+[2019.11.21-07.36.57:751][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.37.44:515][223]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.37.44:742][223]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.38.59:930][535]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-07.38.59:940][535]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.38.59:940][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-07.38.59:940][535]PIE: New page: PIE session: Ocean (Nov 21, 2019, 9:38:59 PM)
+[2019.11.21-07.38.59:940][535]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-07.38.59:943][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003293s)
+[2019.11.21-07.38.59:944][535]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-07.38.59:944][535]LogPlayLevel: PIE: World Init took: (0.000462s)
+[2019.11.21-07.38.59:944][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.003959s)
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-07.38.59:955][535]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-07.38.59:955][535]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-07.39.00:369][535]LogInit: FAudioDevice initialized.
+[2019.11.21-07.39.00:433][535]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-07.39.00:434][535]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-14.39.00
+[2019.11.21-07.39.00:434][535]LogWorld: Bringing up level for play took: 0.000730
+[2019.11.21-07.39.00:436][535]Cmd: r.CustomDepth 3
+[2019.11.21-07.39.00:436][535]r.CustomDepth = "3"
+[2019.11.21-07.39.00:436][535]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-07.39.00:444][535]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-07.39.00:445][535]LogTemp: SimpleFlight
+[2019.11.21-07.39.00:446][535]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 0.507
+[2019.11.21-07.39.00:447][535]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.39.16:964][691]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.39.17:253][691]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.40.04:416][855]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.40.04:416][855]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.40.04:417][855]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.40.04:749][856]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-07.50.48:767][285]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-07.50.48:776][285]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.50.48:776][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-07.50.48:776][285]PIE: New page: PIE session: Ocean (Nov 21, 2019, 9:50:48 PM)
+[2019.11.21-07.50.48:776][285]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-07.50.48:779][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003191s)
+[2019.11.21-07.50.48:780][285]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-07.50.48:780][285]LogPlayLevel: PIE: World Init took: (0.000427s)
+[2019.11.21-07.50.48:780][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.003820s)
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-07.50.48:791][285]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-07.50.48:791][285]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-07.50.49:201][285]LogInit: FAudioDevice initialized.
+[2019.11.21-07.50.49:236][285]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-07.50.49:237][285]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-14.50.49
+[2019.11.21-07.50.49:238][285]LogWorld: Bringing up level for play took: 0.000846
+[2019.11.21-07.50.49:239][285]Cmd: r.CustomDepth 3
+[2019.11.21-07.50.49:239][285]r.CustomDepth = "3"
+[2019.11.21-07.50.49:239][285]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-07.50.49:246][285]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-07.50.49:246][285]LogTemp: SimpleFlight
+[2019.11.21-07.50.49:248][285]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 0.473
+[2019.11.21-07.50.49:249][285]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.50.58:277][616]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.50.58:800][616]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.51.01:621][757]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-07.51.01:630][757]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.51.01:630][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-07.51.01:630][757]PIE: New page: PIE session: Ocean (Nov 21, 2019, 9:51:01 PM)
+[2019.11.21-07.51.01:630][757]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-07.51.01:634][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003147s)
+[2019.11.21-07.51.01:634][757]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-07.51.01:634][757]LogPlayLevel: PIE: World Init took: (0.000432s)
+[2019.11.21-07.51.01:634][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.003789s)
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-07.51.01:646][757]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-07.51.01:646][757]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-07.51.02:059][757]LogInit: FAudioDevice initialized.
+[2019.11.21-07.51.02:094][757]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-07.51.02:095][757]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-14.51.02
+[2019.11.21-07.51.02:095][757]LogWorld: Bringing up level for play took: 0.000839
+[2019.11.21-07.51.02:097][757]Cmd: r.CustomDepth 3
+[2019.11.21-07.51.02:097][757]r.CustomDepth = "3"
+[2019.11.21-07.51.02:097][757]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-07.51.02:105][757]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-07.51.02:105][757]LogTemp: SimpleFlight
+[2019.11.21-07.51.02:107][757]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 0.477
+[2019.11.21-07.51.02:108][757]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.51.39:329][955]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.51.39:531][955]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-07.51.51:634][314]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.11.21-07.52.09:041][456]LogLinux: Scale at X=0.000000, Y=27.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.52.09:041][456]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.52.09:042][456]LogLinux: Scale at X=960.000000, Y=540.000000: 1.000000 (monitor=#0, HDPI=96.000000 (horz scale: 1.000000), VDPI=96.000000 (vert scale: 1.000000))
+[2019.11.21-07.52.09:374][457]LogLinux: Setting swap interval to 'Immediate'
+[2019.11.21-08.13.45:553][371]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.21-08.13.45:568][371]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-08.13.45:568][371]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.21-08.13.45:568][371]PIE: New page: PIE session: Ocean (Nov 21, 2019, 10:13:45 PM)
+[2019.11.21-08.13.45:568][371]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Ocean
+[2019.11.21-08.13.45:573][371]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004207s)
+[2019.11.21-08.13.45:573][371]LogAIModule: Creating AISystem for world Ocean
+[2019.11.21-08.13.45:573][371]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2019.11.21-08.13.45:573][371]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Ocean.Ocean to /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean (0.005083s)
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2019.11.21-08.13.45:585][371]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2019.11.21-08.13.45:586][371]LogAudioMixer: Display: Initializing audio mixer.
+[2019.11.21-08.13.45:586][371]LogAudioMixerSDL: Display: Initialized SDL using pulseaudio platform API backend.
+[2019.11.21-08.13.45:997][371]LogInit: FAudioDevice initialized.
+[2019.11.21-08.13.46:030][371]LogLoad: Game class is 'AirSimGameMode'
+[2019.11.21-08.13.46:032][371]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean up for play (max tick rate 0) at 2019.11.21-15.13.46
+[2019.11.21-08.13.46:032][371]LogWorld: Bringing up level for play took: 0.000832
+[2019.11.21-08.13.46:034][371]Cmd: r.CustomDepth 3
+[2019.11.21-08.13.46:034][371]r.CustomDepth = "3"
+[2019.11.21-08.13.46:034][371]LogActor: Warning: BP_CameraDirector_C /Game/StarterContent/Maps/UEDPIE_0_Ocean.Ocean:PersistentLevel.CameraDirector has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.11.21-08.13.46:042][371]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/AirSim/Weather/WeatherFX/WeatherActor.WeatherActor_C:ExecuteUbergraph_WeatherActor'!
+[2019.11.21-08.13.46:043][371]LogTemp: SimpleFlight
+[2019.11.21-08.13.46:044][371]PIE: Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Ocean 0.476
+[2019.11.21-08.13.46:045][371]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean' with GeneratedClass '/Game/StarterContent/Maps/Ocean.Ocean_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Ocean.Ocean:PersistentLevel.Ocean'
+[2019.11.21-08.13.47:001][372]LogLinuxWindowEvent: Warning: Suppressing too large relative mouse movement due to an apparent bug (-504, -214 is larger than threshold 250)
+[2019.11.21-08.13.52:352][444]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.13.55:191][468]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-16.672050
+[2019.11.21-08.13.55:191][468]LogTemp: overshoot=0.079837
+[2019.11.21-08.13.55:222][469]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.13.57:634][562]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.13.57:634][562]LogTemp: overshoot=0.079815
+[2019.11.21-08.13.57:660][563]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.00:247][640]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.00:247][640]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.00:247][640]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.02:637][692]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.02:637][692]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.02:658][693]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.05:050][788]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.05:050][788]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.05:075][789]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.07:788][822]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.07:789][822]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.07:789][822]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.10:455][830]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.10:455][830]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.10:455][830]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.13:122][838]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.13:122][838]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.13:122][838]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.15:534][904]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.15:534][904]LogTemp: overshoot=0.075650
+[2019.11.21-08.14.15:561][905]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.18:106][967]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.18:106][967]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.18:106][967]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
+[2019.11.21-08.14.20:773][975]LogTemp: segment 0 done: x=0.000000, y=0.000000, z=-0.146496
+[2019.11.21-08.14.20:773][975]LogTemp: overshoot=0.003449
+[2019.11.21-08.14.20:773][975]LogTemp: lookahead = 3.000000, adaptive_lookahead = 1.000000
