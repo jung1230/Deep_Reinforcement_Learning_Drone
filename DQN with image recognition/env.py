@@ -1,0 +1,153 @@
+import airsim
+import torch
+import numpy as np
+import time
+from PIL import Image
+import csv
+import math
+import pprint
+
+# reset done
+# reward done
+# play(action) done
+# gameIteration done
+# stuck it will not be stucked
+
+MOVEMENT_INTERVAL = 1
+
+class DroneEnv(object):
+    def __init__(self, useDepth=False): # in python, underscore before function name is the convention of private(not actually private) 
+        self.client = airsim.MultirotorClient() 
+        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)
+
+        # rotation added!!!!!!!!!!!111
+        self.speed_offset = (0, 0, 0, 0, 0) 
+
+        self.useDepth = useDepth
+
+    def step(self, drone_action):
+
+        # adjust velocity
+        self.speed_offset = self.interpret_action(drone_action)
+        drone_velocity = self.client.getMultirotorState().kinematics_estimated.linear_velocity
+        self.client.moveByVelocityAsync(
+            drone_velocity.x_val + self.speed_offset[0],
+            drone_velocity.y_val + self.speed_offset[1],
+            drone_velocity.z_val + self.speed_offset[2],
+            MOVEMENT_INTERVAL  # control how long the drone will continue moving with the specified velocity, resume vel after the interval
+        ).join()
+
+        if self.speed_offset[3] == 1:
+            # added rotation to the movement decision!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            self.client.moveByAngleRatesZAsync(0, 0, 1, 0, duration=MOVEMENT_INTERVAL).join()
+        elif self.speed_offset[4] == 1:
+            # added rotation to the movement decision!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+            self.client.moveByAngleRatesZAsync(0, 0, -1, 0, duration=MOVEMENT_INTERVAL).join()
+
+        
+        collision = self.client.simGetCollisionInfo().has_collided
+
+        time.sleep(0.5) # or 1 here? by Setting the speed directly may cause the flight not smooth and stable
+
+        drone_position = self.client.getMultirotorState().kinematics_estimated.position
+        drone_velocity = self.client.getMultirotorState().kinematics_estimated.linear_velocity
+
+        reward, done = self.compute_reward(drone_position, collision)
+        observation, image = self.get_vision()
+
+        return observation, reward, done, image
+
+
+    def interpret_action(self, drone_action):
+        # added more movement action here !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+        # (x,y,z,rot right 45 deg, rot left 45 deg)
+        scaling_factor = 3
+        if drone_action == 0:
+            self.speed_offset = (scaling_factor, 0, 0, 0, 0)
+        elif drone_action == 1:
+            self.speed_offset = (-scaling_factor, 0, 0, 0, 0)
+        elif drone_action == 2:
+            self.speed_offset = (0, scaling_factor, 0, 0, 0)
+        elif drone_action == 3:
+            self.speed_offset = (0, -scaling_factor, 0, 0 , 0)
+        elif drone_action == 4:
+            self.speed_offset = (0, 0, scaling_factor, 0 , 0)
+        elif drone_action == 5:
+            self.speed_offset = (0, 0, -scaling_factor, 0 , 0)
+        elif drone_action == 6:
+            self.speed_offset = (0, 0, 0, 1, 0)
+        elif drone_action == 7:
+            self.speed_offset = (0, 0, 0, 0, 1)
+            
+        return self.speed_offset
+        
+    def compute_reward(self, drone_position, collision):
+        reward = -1
+        if collision:
+            reward = -50
+        else:
+            dist = self.get_distance_to_goal(drone_position)
+            progress = self.last_dist - dist
+            self.last_dist = dist
+
+            if dist < 10:
+                reward = 500
+            else:
+                reward +=  progress
+
+        done = 0
+        if reward <= -10:
+            done = 1
+            time.sleep(1)
+        elif reward >= 500:
+            done = 1
+            time.sleep(1)
+
+        return reward, done
+
+  
+
+    def get_distance_to_goal(self, drone_position):
+        goal_loc = np.array([103, -176, -17])
+        drone_loc = np.array(list((drone_position.x_val, drone_position.y_val, drone_position.z_val)))
+        
+        # Compute the Euclidean distance between the current position and the goal position
+        dist = np.linalg.norm(drone_loc - goal_loc)
+        return dist
+
+    def get_vision(self):
+        if self.useDepth:
+            # get depth image
+            responses = self.client.simGetImages(
+                [airsim.ImageRequest(0, airsim.ImageType.DepthPlanner, pixels_as_float=True)])
+            response = responses[0]
+            img1d = np.array(response.image_data_float, dtype=np.float)
+            img1d = img1d * 3.5 + 30
+            img1d[img1d > 255] = 255
+            image = np.reshape(img1d, (responses[0].height, responses[0].width))
+            image_array = Image.fromarray(image).resize((84, 84)).convert("L")
+        else:
+            # Get rgb image
+            responses = self.client.simGetImages(
+                [airsim.ImageRequest("1", airsim.ImageType.Scene, False, False)]
+            )
+            response = responses[0]
+            img1d = np.fromstring(response.image_data_uint8, dtype=np.uint8)
+            image = img1d.reshape(response.height, response.width, 3)
+            image_array = Image.fromarray(image).resize((84, 84)).convert("L")
+
+        observation = np.array(image_array)
+
+        return observation, image
+
+    def reset(self):
+        self.client.reset()
+        self.last_dist = self.get_distance_to_goal(self.client.getMultirotorState().kinematics_estimated.position)
+        self.client.enableApiControl(True)
+        self.client.armDisarm(True)
+        self.client.takeoffAsync().join()
+        quad_state = self.client.getMultirotorState().kinematics_estimated.position
+        self.client.moveToPositionAsync(quad_state.x_val, quad_state.y_val, -7, 1).join()
+        observation, image = self.get_vision()
+        return observation, image
+
